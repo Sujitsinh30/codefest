@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+*
+{
+    font-family: 'Oswald', sans-serif;    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #d4eff1;
+}
+header
+{
+    position: relative;
+    height: 40vw;
+}
+#logo
+{
+    width: 10em;
+}
+#logo_img
+{
+    max-width: 4em;
+}
+#head_left
+{
+    background-color: #d4eff1;
+}
+#tag_line
+{
+    color: #a5e0e3;
+    font-size: 3em;
+}
+.mobile_img
+{
+    position: absolute;
+    max-width: 16vw;
+    top: 3vw;
+    left: 35vw;
+    z-index: 1;
+    box-shadow: 8px 8px #ff3700;
+    border-radius: 0px 10px 10px 10px;
+}
+#head_right
+{
+    border-radius: 10px 0px 0px 10px;
+    background-color:#ff5c24;
+}
+#head_right_text span
+{
+    font-size: 4em;
+}
+#head_right_text p
+{
+    list-style: none; 
+    font-size: 5vw;
+    text-shadow: 5px 5px #ff3700;
+}
+#dwn_btn
+{
+    width:7em;
+}
+#first_sec
+{
+    height: 12vw;
+    font-size: xx-large;
+    font-weight: 900;
+}
+#second_sec
+{
+    border-radius: 15px;
+    background-color: #c7e6e7;
+    height: 26vw;
+}
+.card
+{
+    width: 18rem;
+    border: none;
+    background-color: #c7e6e7;
+}
+.card:nth-child(1)
+{
+    border-right: 1px solid #a6c1c1;
+}
+.card:nth-child(2)
+{
+    border-right: 1px solid #a6c1c1;
+}
+.card img
+{
+    max-width: 8vw;
+}
+#third_sec
+{
+    position: relative;
+    height: 40vw;
+}
+#third_left h2
+{
+    font-size: 3rem;
+}
+#mobile1
+{
+    position: absolute;
+    max-width: 18vw;
+    transform: rotate(-30deg);
+    border-radius: 10px;
+    box-shadow: 10px black;
+    right: 10em;
+}
