@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 *
 {
-    font-family: 'Oswald', sans-serif;    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;   
     margin: 0;
+    padding: 0;
 }
 body
 {
@@ -92,7 +94,7 @@ header
 #third_sec
 {
     position: relative;
-    height: 40vw;
+    height: 45vw;
 }
 #third_left h2
 {
@@ -101,9 +103,24 @@ header
 #mobile1
 {
     position: absolute;
-    max-width: 18vw;
-    transform: rotate(-30deg);
+    max-width: 20vw;
+    transform: rotate(-26deg);
     border-radius: 10px;
-    box-shadow: 10px black;
-    right: 10em;
+    top: 0em;
+    right: 7em;
+}
+.mobile_img2
+{
+    position: absolute;
+    max-width: 16vw;
+    box-shadow: 8px 8px #ff3700;
+    border-radius: 0px 10px 10px 10px;
+}
+a:visited{color: black;}
+a:hover{color: black;}
+a:active{color: black;}
+.cp-text
+{
+     color: rgba(0,0,0,.7);
+     text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 }
